@@ -75,7 +75,7 @@ Use JavaScripts `Date` objects to display the actual
 time.
 
 ```
-var now = new Date();
+let now = new Date();
 ```
 
 Get `now` by declaring a new Date object. You can google for "MDN date methods" to see what
