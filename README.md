@@ -19,7 +19,7 @@ clock.
 ```js
 function secondRotation(seconds) {
   //code
-  return degRotation
+  return degRotation;
 }
 ```
 
