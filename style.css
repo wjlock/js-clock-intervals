@@ -1,5 +1,6 @@
 #face {
     position: relative;
+    z-index: -2;
 
 }
 
@@ -7,6 +8,7 @@
     position: absolute;
     top: -20px;
     left: 10px;
+    z-index: 0;
 
 }
 
@@ -14,6 +16,7 @@
     position: absolute;
     top: -20px;
     left: 10px;
+    z-index: -1;
 
 }
 
@@ -21,6 +24,7 @@
     position: absolute;
     top: 0px;
     left: 10px;
+    z-index: 1;
 
 }
 
