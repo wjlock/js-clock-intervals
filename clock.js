@@ -1,5 +1,9 @@
 
 document.addEventListener("DOMContentLoaded", function() {
+  let seconds = 0;
+  let minutes;
+  let hours;
+
   function secondRotation(seconds) {
       let degRotation = seconds * 6
       return degRotation
@@ -18,7 +22,14 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function tick() {
-    console.log('tick');
+    setInterval(function() {
+      seconds++;
+    }, 1000)
   }
-  setInterval(tick, 1000)
+
+  setInterval(function() {
+    console.log(seconds);
+  }, 10000)
+
+  tick();
 })
