@@ -26,16 +26,16 @@ document.addEventListener("DOMContentLoaded", function() {
       seconds++;
       if (seconds === 60) {
         minutes++
-        seconds = 0
+        // seconds = 0
       }
       if (minutes === 60) {
         hours++
-        minutes = 0
+        // minutes = 0
       }
       if (hours === 12) {
-        hours = 0
+        // hours = 0
       }
-      let degreesSeconds = secondRotation(seconds)
+      let degreesSeconds = secondRotation(seconds);
       document.getElementById("second").style.transform = `rotate(${degreesSeconds}deg)`
       let degreesMinutes = minuteRotation(seconds)
       document.getElementById("minute").style.transform = `rotate(${degreesMinutes}deg)`
