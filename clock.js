@@ -39,6 +39,8 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("second").style.transform = `rotate(${degreesSeconds}deg)`
       let degreesMinutes = minuteRotation(seconds)
       document.getElementById("minute").style.transform = `rotate(${degreesMinutes}deg)`
+      let degreesHours = hourRotation(seconds)
+      document.getElementById("hour").style.transform = `rotate(${degreesHours}deg)`
     }, 1000)
   }
 
